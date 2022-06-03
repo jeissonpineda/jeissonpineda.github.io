@@ -1,0 +1,22 @@
+{
+	"name": "DestinationDataset_2ep",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ProductsJfpv",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "fsjfpinedav"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
